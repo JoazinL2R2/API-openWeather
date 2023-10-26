@@ -1,6 +1,6 @@
 function buscarPrevisaoTempo() {
     const cidade = document.getElementById('cidade').value;
-    const apiKey = '6be5f6e0361b740c3d284ade7979ccf2'; // Substitua pela sua chave de API do OpenWeather
+    const apiKey = '6be5f6e0361b740c3d284ade7979ccf2'; 
 
     if (!cidade) {
         alert('Por favor, digite o nome da cidade.');
